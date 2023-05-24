@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".Screens.faqs">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:padding="10dp"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Q: What is a library application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold"
+                  >
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: A library application is a digital platform that allows users to access library resources such as books, journals, and other materials online."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Q: How do I access the library application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: The library application can be accessed through a website or mobile application. You will need to create an account and log in to access the resources."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Q: What resources are available on the library application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: The library application provides access to a wide range of resources including books, e-books, journals, articles, and other materials based on the library's collection."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Q: Can I borrow books through the library application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: Yes, you can borrow books through the library application. You will need to check the availability of the book and reserve it, and then you can pick it up from the library or have it delivered to your address."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Q: How long can I borrow a book through the library application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: The borrowing period may vary depending on the library's policy. Typically, you can borrow a book for 2-3 weeks and renew it if needed."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Q: Can I request a book that is not available on the library Application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: Yes, you can request a book that is not available on the library application. You can make a request through the application or contact the library staff."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Q: How do I return a book borrowed through the library"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: You can return a book borrowed through the library application by either dropping it off at the library or using the return feature on the application if available."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text=" Q: Is there a cost to use the library application?"
+                  android:textSize="20sp"
+                  android:textStyle="bold">
+
+              </TextView>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="A: The cost to use the library application may vary depending on the library's policy. Some libraries may require a membership fee or charge for specific resources, while others may offer free access to all resources."
+                  android:textSize="15sp"
+                  android:textStyle="italic"
+                  android:layout_marginBottom="5dp">
+
+              </TextView>
+          </LinearLayout>
+
+
+      </LinearLayout>
+
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
